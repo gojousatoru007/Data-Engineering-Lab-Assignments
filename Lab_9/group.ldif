@@ -1,0 +1,12 @@
+# developers_group_with_ou.ldif
+
+dn: ou=groups,dc=example,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: groups
+
+dn: cn=developers,ou=groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: developers
+uniqueMember: uid=bob,ou=users,dc=example,dc=com

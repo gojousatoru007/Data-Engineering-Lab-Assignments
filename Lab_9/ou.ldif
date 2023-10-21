@@ -1,0 +1,6 @@
+# users_ou.ldif
+
+dn: ou=users,dc=example,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: users

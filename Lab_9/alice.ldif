@@ -1,0 +1,13 @@
+# alice.ldif
+
+dn: uid=alice,ou=users,dc=example,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: alice
+cn: Alice
+sn: Doe
+givenName: Alice
+mail: alice@example.com
+userPassword: aliceisthebest

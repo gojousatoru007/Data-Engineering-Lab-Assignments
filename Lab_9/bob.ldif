@@ -1,0 +1,13 @@
+# bob_user.ldif
+
+dn: uid=bob,ou=users,dc=example,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: bob
+cn: Bob
+sn: Smith
+givenName: Bob
+mail: bob@example.com
+userPassword: bobisthebest
